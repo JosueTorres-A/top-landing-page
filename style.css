@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    z-index: 1;
+}
+
+.alignRight {
+    margin-left: auto;
+    margin-right: 200px;
+}
+
+header ul {
+    display: flex;
+    gap: 50px;
+}
+
+header p {
+    margin: 0;
+    margin-left: 200px;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+header li, a{
+    list-style: none;
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.awesome {
+    background-color: #1F2937;
+    display: flex;
+    padding: 60px 0;
+}
+
+.awesome div {
+    width: 50%;
+}
+
+.awesome h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+}
+
+.alignLeftDiv {
+    margin-left: 200px;
+}
+
+.alignRightDiv {
+    margin-right: 200px;
+}
+
+.imgNotFound {
+    width: 100%;
+    object-fit: fill;
+}
+
+.secText {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-right: 50px;
+}
+
+.signUpButton {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border:0;
+    font-weight: bold;
+    font-size: large;
+}
+
+.information {
+    display: block;
+}
+
+.information h2, .containerIllustration {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.information h2 {
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.illustration {
+    width: 200px; 
+    height: 200px; 
+    border: 5px solid #3882F6; 
+    border-radius: 25px;
+}
+
+.randomText {
+    text-align: center;
+    color: grey;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    margin-top: 100px;
+}
+
+.quote p {
+    display: flex;
+
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    justify-content: center;
+}
+
+.quote .author {
+    font-weight: bolder;
+    font-size: 30px;
+    font-style: normal;
+    justify-content: end;
+}
+
+.quote div {
+    margin: 100px 400px;
+    padding: 100px 0;
+}
+
+.action {
+    margin: 100px 400px;
+}
+
+.blueContainer {
+    background-color: #3882F6;
+    padding: 40px 150px;
+    border-radius: 15px;
+    color: #F9FAF8;
+    display: flex;
+}
+
+.infoButton {
+    width: 70%;
+}
+
+.clickButton {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: end;
+}
+
+.action button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 40px;
+    font-weight: bold;
+    font-size: large;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 30px 0;
+    justify-content: center;
+}
+
+footer p {
+    margin: 0;
+}
